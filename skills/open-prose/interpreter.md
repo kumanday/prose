@@ -6,7 +6,7 @@ summary: |
   parallel execution. Read this file to run .prose programs.
 see-also:
   - SKILL.md: Activation triggers, onboarding, telemetry
-  - prose.md: Full syntax grammar, validation rules, compilation
+  - docs.md: Full syntax grammar, validation rules, compilation
 ---
 
 # OpenProse VM

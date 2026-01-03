@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://prose.md">Website</a> •
-  <a href="skills/open-prose/prose.md">Language Spec</a> •
+  <a href="skills/open-prose/docs.md">Language Spec</a> •
   <a href="examples/">Examples</a>
 </p>
 
@@ -94,7 +94,7 @@ openprose boot
 | Pipelines | `items \| map: session "..."` |
 | Conditionals | `if **condition**:` / `choice **criteria**:` |
 
-See the [Language Reference](skills/open-prose/prose.md) for complete documentation.
+See the [Language Reference](skills/open-prose/docs.md) for complete documentation.
 
 ## Examples
 
@@ -133,7 +133,7 @@ The OpenProse VM is an AI session that acts as an intelligent runtime:
 | File | Purpose | When to Read |
 |------|---------|--------------|
 | `interpreter.md` | OpenProse VM semantics | Always, for running programs |
-| `prose.md` | Full language spec | For compilation, validation, or syntax questions |
+| `docs.md` | Full language spec | For compilation, validation, or syntax questions |
 
 ## FAQ
 

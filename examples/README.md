@@ -209,4 +209,4 @@ Multi-line prompt with {x}
 
 ## Learn More
 
-See `prose.md` in the skill directory for the complete language specification.
+See `docs.md` in the skill directory for the complete language specification.

@@ -13,7 +13,7 @@ description: |
 
 see-also:
   - interpreter.md: Execution semantics, how to run programs
-  - prose.md: Full syntax grammar, validation rules, compilation
+  - docs.md: Full syntax grammar, validation rules, compilation
 
 triggers:
   - pattern: "openprose boot"
@@ -22,7 +22,7 @@ triggers:
   - pattern: "openprose compile"
     action: compile
     description: |
-      Read prose.md and validate/compile a .prose file. Check syntax, semantic
+      Read docs.md and validate/compile a .prose file. Check syntax, semantic
       validity, and transform to canonical form. Report errors and warnings.
   - pattern: "openprose run"
     action: run
@@ -212,12 +212,12 @@ Examples of tailored questions:
 | File | Purpose | When to Read |
 |------|---------|--------------|
 | `interpreter.md` | Execution semantics | Always read for running programs |
-| `prose.md` | Full language spec | For compilation, validation, or syntax questions |
+| `docs.md` | Full language spec | For compilation, validation, or syntax questions |
 
 ### Typical Workflow
 
 1. **Interpret**: Read `interpreter.md` to execute a valid program
-2. **Compile/Validate**: Read `prose.md` when asked to compile or when syntax is ambiguous
+2. **Compile/Validate**: Read `docs.md` when asked to compile or when syntax is ambiguous
 
 ## Quick Reference
 
@@ -335,4 +335,4 @@ do blockname(args)            # Invoke block
 items | map: ...              # Pipeline
 ```
 
-For complete syntax and validation rules, see `prose.md`.
+For complete syntax and validation rules, see `docs.md`.
